@@ -1,1 +1,19 @@
-
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Sigma Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Identificação do Projeto
+      path: identificacao-do-projeto
+      icon: eyes
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Identificação do Projeto
+          path: identificacao-do-projeto
+          default: true
+          draft: true
+          content:
+            directory: ./identificacao-do-projeto
